@@ -1,0 +1,27 @@
+ascii-art-generator/   # Main project folder
+│── ascii_generator.py   # Main script to convert text/images to ASCII
+│── ascii_logo.py        # Script to generate and display ASCII logos
+│── text_to_ascii.py     # Script to convert user-input text to ASCII
+│── image_to_ascii.py    # Script to convert images to ASCII
+│── color_ascii.py       # Script to add color to ASCII output
+│── fonts/               # Directory for additional ASCII fonts
+│   ├── standard.txt     # Standard ASCII font
+│   ├── block.txt        # Block-style ASCII font
+│   ├── shadow.txt       # Shadow-style ASCII font
+│   ├── ...              # More font styles
+│── images/              # Directory for storing ASCII output from images
+│   ├── example1.png     # Example input image
+│   ├── example2.jpg     # Another example image
+│   ├── output1.txt      # ASCII output of example1.png
+│── examples/            # Folder with example ASCII outputs
+│   ├── text_example.txt # Sample ASCII text output
+│   ├── logo_example.txt # Sample ASCII logo output
+│── docs/                # Documentation folder
+│   ├── user_guide.md    # User guide for running the program
+│   ├── developer_notes.md # Notes for developers
+│── requirements.txt     # List of required Python libraries
+│── README.md            # Project documentation and usage guide
+│── LICENSE              # Project license (optional)
+│── .gitignore           # Ignore unnecessary files like __pycache__
+│── setup.py             # Script for packaging the project
+│── config.json          # Configuration file for custom settings
